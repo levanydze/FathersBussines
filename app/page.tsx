@@ -4,11 +4,6 @@ import PhotoText from "../components/sectionComponents/PhotoText/PhotoText";
 import Dashboard from "../components/animations/SliderPeople/Dashboard";
 import ImageTextButton from "@/components/HomePageHeads/ImageTextButton/ImageTextButton";
 
-export const metadata = {
-  title: "ChaCha Restaurant",
-  description: "Delicious Food",
-};
-
 export default function Home() {
   const { headImage, chef3 } = imagesJson;
   return (
