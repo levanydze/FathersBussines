@@ -8,12 +8,13 @@ export const metadata = {
 };
 
 export default function Reservation() {
-  const { headImage, busImage5 } = imagesJson;
+  const { headImage, busImage6 } = imagesJson;
 
   return (
     <div className="fadeOut">
-      <PageHeadImage value="RESERV A TABLE" image={busImage5} short={false} />
+      <PageHeadImage value="RESERV A TABLE" image={busImage6} short={false} />
       <ReservationContactForm />
+      <MapTimes />
     </div>
   );
 }

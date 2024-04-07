@@ -5,19 +5,19 @@ import Link from "next/link";
 const events = [
   {
     date: "July 30, 2024",
-    title: "The principles of scientific cooking",
+    title: "Two days trip in Bakhmaro",
   },
   {
     date: "August 08, 2024",
-    title: "Barbecue party tips for a truly amazing event",
+    title: "One week trip in Batumi",
   },
   {
     date: "September 24, 2024",
-    title: "Cooking for one",
+    title: "Day trip in Stepatsminda",
   },
   {
     date: "December 24, 2024",
-    title: "Big pizza party",
+    title: "Three days trip in Gomismta",
   },
 ];
 

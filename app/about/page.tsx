@@ -14,7 +14,7 @@ export default function AboutPage() {
   const { headImage, busImage4 } = imagesJson;
   return (
     <div className="fadeOut">
-      <PageHeadImage value="ABOUT US" image={busImage4} short={true} />
+      <PageHeadImage value="ABOUT US" image={busImage4} short={false} />
       {/* <TwoTextAbout />
       <PhotoText
         image={chef}

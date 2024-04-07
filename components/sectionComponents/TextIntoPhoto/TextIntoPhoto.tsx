@@ -4,7 +4,7 @@ import Image from "next/image";
 
 interface TextIntoPhotoProps {
   reverse: boolean;
-  TextIntoPhotoIcon: string;
+  TextIntoPhotoIcon: string | null;
   TextIntoPhotoImage: string;
   alt: string;
   text: string;
@@ -35,12 +35,14 @@ export default function TextIntoPhoto({
         ></Image>
         <div className={`${styles.slideSide} ${styles.textDivWrapper}`}>
           <div className={` ${styles.textDiv}`}>
-            <Image
-              src={TextIntoPhotoIcon}
-              alt="chair"
-              width={60}
-              height={60}
-            ></Image>
+            {TextIntoPhotoIcon ? (
+              <Image
+                src={TextIntoPhotoIcon}
+                alt="chair"
+                width={60}
+                height={60}
+              ></Image>
+            ) : null}
             <h2 className="title4 ">{title}</h2>
             <p className="twoLines"></p>
             <h5 className="text1 textMedium">{text}</h5>

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./LowerFoot.module.css";
 import { FaHeart } from "react-icons/fa";
 import Link from "next/link";
+import { companyName } from "../../../controlFolder/control";
 
 export default function LowerFoot() {
   return (
@@ -20,7 +21,7 @@ export default function LowerFoot() {
           <p className={`font2 ${styles.lighted}`}>ChaCha AB</p>
         </Link>
         <div className={styles.divider}></div>
-        <p className={styles.dimmed}> Style Guide</p>
+        <p className={`font1 ${styles.lighted}`}>&copy; {companyName}</p>
         <div className={styles.divider}></div>
         <p className={styles.dimmed}>Licenses</p>
       </div>

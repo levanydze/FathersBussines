@@ -15,7 +15,7 @@ export default function MapTimes() {
             <iframe className={styles.mapSide} src={mapLocation}></iframe>
           </div>
         </div>
-        <Hours />
+        {/* <Hours /> */}
       </div>
     </div>
   );
