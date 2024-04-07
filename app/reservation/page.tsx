@@ -12,7 +12,11 @@ export default function Reservation() {
 
   return (
     <div className="fadeOut">
-      <PageHeadImage value="RESERV A TABLE" image={busImage6} short={false} />
+      <PageHeadImage
+        value="Book A Bus And Driver"
+        image={busImage6}
+        short={false}
+      />
       <ReservationContactForm />
       <MapTimes />
     </div>
