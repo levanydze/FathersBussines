@@ -5,7 +5,7 @@ import Dashboard from "../components/animations/SliderPeople/Dashboard";
 import ImageTextButton from "@/components/HomePageHeads/ImageTextButton/ImageTextButton";
 
 export default function Home() {
-  const { headImage, busImage1 } = imagesJson;
+  const { headImage, busImage2 } = imagesJson;
   return (
     <main className="fadeOut">
       <ImageTextButton
@@ -18,7 +18,7 @@ export default function Home() {
       />
 
       <PhotoText
-        image={busImage1}
+        image={busImage2}
         title1="Leader's Word"
         title2="Best Experience For Your Gerogian Trip"
         text="აქ დავწეროთ ნებისმიერი რამე რაც გინდააქ დავწეროთ ნებისმიერი რამე რაც გინდააქ დავწეროთ ნებისმიერი რამე რაც გინდააქ დავწეროთ ნებისმიერი რამე რაც გინდააქ დავწეროთ ნებისმიერი რამე რაც გინდა"
